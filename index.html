@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SPT Digital Art | Portfolio</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins,sans-serif;
+}
+
+body{
+background:#090909;
+color:white;
+overflow-x:hidden;
+}
+
+header{
+position:fixed;
+top:0;
+width:100%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:18px 8%;
+background:rgba(0,0,0,.55);
+backdrop-filter:blur(20px);
+z-index:1000;
+}
+
+.logo{
+display:flex;
+align-items:center;
+gap:12px;
+}
+
+.logo img{
+width:55px;
+}
+
+.logo h2{
+font-size:22px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:30px;
+transition:.3s;
+}
+
+nav a:hover{
+color:#9d4dff;
+}
+
+.hero{
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+padding:120px 8%;
+}
+
+.left{
+flex:1;
+}
+
+.left h1{
+font-size:58px;
+line-height:1.1;
+}
+
+.left span{
+color:#9d4dff;
+}
+
+.left p{
+margin:25px 0;
+font-size:18px;
+color:#cfcfcf;
+max-width:550px;
+}
+
+.buttons{
+display:flex;
+gap:20px;
+}
+
+.btn{
+padding:16px 34px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+transition:.3s;
+}
+
+.primary{
+background:#9d4dff;
+color:white;
+}
+
+.secondary{
+border:2px solid #9d4dff;
+color:white;
+}
+
+.btn:hover{
+transform:translateY(-5px);
+}
+
+.right{
+flex:1;
+display:flex;
+justify-content:center;
+}
+
+.card{
+width:380px;
+height:430px;
+border-radius:30px;
+background:linear-gradient(145deg,#181818,#111);
+box-shadow:0 0 50px rgba(157,77,255,.4);
+display:flex;
+justify-content:center;
+align-items:center;
+padding:40px;
+}
+
+.card img{
+width:220px;
+}
+
+.services{
+padding:100px 8%;
+text-align:center;
+}
+
+.services h2{
+font-size:42px;
+margin-bottom:50px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+gap:30px;
+}
+
+.box{
+background:#121212;
+padding:35px;
+border-radius:20px;
+transition:.3s;
+}
+
+.box:hover{
+transform:translateY(-10px);
+box-shadow:0 0 30px rgba(157,77,255,.4);
+}
+
+footer{
+padding:40px;
+text-align:center;
+color:#bbb;
+background:#050505;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+<img src="assets/logo.png">
+<h2>SPT Digital Art</h2>
+</div>
+
+<nav>
+
+<a href="#">Home</a>
+<a href="#">Portfolio</a>
+<a href="#">Services</a>
+<a href="#">Contact</a>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div class="left">
+
+<h1>Create Stunning <span>Digital Art</span><br>For Your Brand</h1>
+
+<p>
+Professional Logo Design, Illustration, Custom Badges,
+Merchandise Design and Creative Branding.
+</p>
+
+<div class="buttons">
+
+<a class="btn primary" href="https://wa.me/917779996052">Hire Me</a>
+
+<a class="btn secondary" href="#">View Portfolio</a>
+
+</div>
+
+</div>
+
+<div class="right">
+
+<div class="card">
+
+<img src="assets/logo.png">
+
+</div>
+
+</div>
+
+</section>
+
+<section class="services">
+
+<h2>My Services</h2>
+
+<div class="grid">
+
+<div class="box">
+<h3>🎨 Logo Design</h3>
+<p>Professional brand identities for businesses.</p>
+</div>
+
+<div class="box">
+<h3>🖌 Illustration</h3>
+<p>Creative illustrations for personal & commercial use.</p>
+</div>
+
+<div class="box">
+<h3>🏅 Badge Design</h3>
+<p>Military, biker, gaming & custom badges.</p>
+</div>
+
+<div class="box">
+<h3>🎂 Poster Design</h3>
+<p>Birthday, events and promotional posters.</p>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+© 2026 SPT Digital Art
+
+<br><br>
+
+📱 WhatsApp: +91 7779996052
+
+<br>
+
+✉️ sptdigital07@gmail.com
+
+<br>
+
+Instagram: @_.spt_digital_art._
+
+</footer>
+
+</body>
+</html>
